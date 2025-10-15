@@ -1,0 +1,21 @@
+{
+  "name": "tic-tac-toe",
+  "private": true,
+  "version": "1.0.0",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "tsc && vite build",
+    "preview": "vite preview",
+    "test": "vitest",
+    "coverage": "vitest run --coverage"
+  },
+  "devDependencies": {
+    "typescript": "^4.6.4",
+    "vite": "^3.1.0",
+    "vitest": "^0.23.4"
+  },
+  "dependencies": {
+    "sass": "^1.55.0"
+  }
+}
